@@ -1,0 +1,23 @@
+{
+  "name": "example-nodejs-app",
+  "version": "0.0.1",
+  "description": "Sample application for use in Bootcamp pipeline",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/automation-tools-bootcamp/example-nodejs-app.git"
+  },
+  "author": "Tyler Fitch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/automation-tools-bootcamp/example-nodejs-app/issues"
+  },
+  "homepage": "https://github.com/automation-tools-bootcamp/example-nodejs-app#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
