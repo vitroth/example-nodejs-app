@@ -16,4 +16,5 @@ app.get('/version', function (req, res) {
 
 var server = app.listen(8085, function() {
   console.log('Example app listening on port 8085');
+  console.log(process.env);
 });
